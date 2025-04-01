@@ -14,14 +14,13 @@ include 'connect.php';
 </head>
 <body>
     <div class="container my-5">
-        <button class="btn btn-primary"><a href="user.php" class="text-light">Add User</a></button>
-        <table class="table">
+        <table class="table my-5">
   <thead>
     <tr>
       <th scope="col">ID</th>
       <th scope="col">Full Name</th>
       <th scope="col">Email</th>
-      <th scope="col">Phone Number</th>
+      <th scope="col">Phoddne Number</th>
       <th scope="col">Operations</th>
     </tr>
   </thead>
@@ -50,6 +49,7 @@ include 'connect.php';
     ?>  
   </tbody>
 </table>
+<button class="btn btn-primary"><a href="user.php" class="text-light">Add User</a></button>
     </div>
 </body>
 </html>
